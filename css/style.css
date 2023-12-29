@@ -1,0 +1,73 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Other CSS File Import */
+@import url('./sections/navbar.css');
+@import url('./sections/hero.css');
+@import url('./sections/about.css');
+@import url('./sections/contact.css');
+@import url('./sections/footer.css');
+
+/* Default Style Reset */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* user-select: none; */
+    overflow-x: hidden;
+}
+
+/* Variables */
+:root {
+    /* Fonts */
+    --primary-font: 'Roboto Slab', serif;
+    --secondary-font: 'Poppins', sans-serif;
+
+    /* Colors */
+    --background-color: #002023;
+    /* --primary-color: #;
+    --secondary-color: #;
+    --text-color: #;
+    --link-color: #;
+    --hover-color: #; */
+    /* Shadow */
+
+    /* Spacing */
+    --small-size: 16px;
+}
+
+body {
+    font-family: var(--primary-font);
+}
+
+/* Remove list styles and text decoration */
+ul, ol {
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+/* Remove text decoration and inherit color for links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+.showcase__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    color: #fff; /* Set the text color */
+    z-index: 2; /* Ensure the content is above the background lines */
+}

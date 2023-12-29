@@ -1,0 +1,48 @@
+/* Base styles */
+.footer {
+    width: 100vw;
+    padding-top: 100px;
+}
+
+/* Layout styles */
+.footer__upper-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+/* Module styles - Social Links */
+.footer__upper-part > a {
+    padding: 4px;
+}
+
+
+/* Layout styles */
+.footer__middle-part {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-bottom: 20px;
+}
+
+/* Module styles - Navigation Links */
+.footer__middle-part > a {
+    padding-left: 10px;
+    color: black;
+}
+
+/* Module styles - Separator between navigation links */
+.footer__middle-part > span {
+    height: 15px;
+    width: 1px;
+    background-color: black;
+    margin-left: 10px;
+}
+
+/* Layout styles */
+.footer__under-part {
+    text-align: center;
+    padding-bottom: 28px;
+}
+

@@ -1,0 +1,38 @@
+/* Navbar styles */
+.navbar {
+    /* Background color: var(--background-color); */
+}
+
+/* Container styles */
+.navbar__container {
+    margin: 0 auto;
+    width: 60%;
+}
+
+/* Wrapper styles */
+.navbar__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Menu styles */
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    /* Text color: white; */
+    color: var(--backgorund-color); /* Typo in variable name, should be --background-color */
+    gap: 35px;
+    height: 140px;
+    font-weight: 500;
+}
+
+/* Item styles */
+.navbar__item:hover {
+    text-decoration: underline;
+    background: linear-gradient(102.6deg, #23bfb8 -0.49%, #85ea80 104.37%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .4s linear;
+}
